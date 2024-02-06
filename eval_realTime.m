@@ -24,7 +24,7 @@ stride = 30;
 
 %% Aux and dependent variables
 % libs
-% addpath(genpath('..\..\libraries'))
+addpath(genpath('MyoMex-master')) % or add your own path to MyoMex
 period = 1/200* 30;
 
 %%
