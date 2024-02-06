@@ -14,7 +14,9 @@ jonathan.a.zea@ieee.org
 12 May 2023
 %}
 
-cc
+clear all
+close all
+clc
 %% Configs
 window_size = 300;
 stride = 30;
@@ -23,13 +25,12 @@ stride = 30;
 %% Aux and dependent variables
 % libs
 % addpath(genpath('..\..\libraries'))
-cd()
 period = 1/200* 30;
 
 %%
 myo = Myo();
 model = Model_spec_CNN_LSTM();
-graph = EMG_plot(window_size);
+% graph = EMG_plot(window_size);
 
 %% loop
 while true
